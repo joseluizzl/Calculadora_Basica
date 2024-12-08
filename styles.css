@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .calculadora {
+    background-color: rgb(170, 178, 179);
+    max-width: 400px;
+    margin: 0 auto;
+    border: 3px solid #7e7878;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputs input {
+    width: calc(50% - 10px);
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .botoes button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
